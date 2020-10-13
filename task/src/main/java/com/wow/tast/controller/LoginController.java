@@ -15,4 +15,11 @@ public class LoginController {
         log.info("successfully");
         return "login";
     }
+
+    @RequestMapping(value = "/user",method = RequestMethod.GET)
+    public String User(){
+
+        log.info("successfully");
+        return "userResult";
+    }
 }
