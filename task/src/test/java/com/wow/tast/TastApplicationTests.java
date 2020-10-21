@@ -10,4 +10,10 @@ class TastApplicationTests {
     void contextLoads() {
     }
 
+    @Test
+    void moveMouse(){
+
+
+    }
+
 }
